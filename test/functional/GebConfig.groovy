@@ -3,6 +3,7 @@ import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.firefox.FirefoxProfile
 
 driver = {
+
         File file = new File("C:/Users/USER/Downloads/chromedriver_win32/chromedriver.exe"); //configurar com o enderço correto do chromedriver.
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
         new ChromeDriver();
